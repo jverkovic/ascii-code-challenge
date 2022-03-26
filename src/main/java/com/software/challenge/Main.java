@@ -15,7 +15,7 @@ public class Main {
         if (args.length >= 2) {
 
             for (int i = 0; i < args.length; i += 2) {
-
+                
                 ASCIIMapLoader asciiMap2DCharLoader = new ASCIIMapLoader(args[i]);
                 ASCIIMapResultLoader asciiMapResultLoader = new ASCIIMapResultLoader(args[i + 1]);
                 ASCIIMapWalkResult asciiMapCheckResult = asciiMapResultLoader.loadASCIIMapResult();
