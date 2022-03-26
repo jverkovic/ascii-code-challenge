@@ -16,9 +16,4 @@ class MapValidationTest {
         Assertions.assertNotNull(asciiMapAlgorithm.asciiMapPathWalk());
     }
 
-    @Test
-    void shouldPrintableASCIIMap() throws FileNotFoundException {
-        ASCIIMapLoader asciiMap2DCharLoader = new ASCIIMapLoader("inputs/test-map-1.txt");
-        Assertions.assertNotNull(asciiMap2DCharLoader.printASCIIMapAsChar2D());
-    }
 }

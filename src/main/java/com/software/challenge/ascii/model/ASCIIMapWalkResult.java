@@ -29,4 +29,11 @@ public class ASCIIMapWalkResult {
     public void setAsciiPathWalkLetters(String asciiPathWalkLetters) {
         this.asciiPathWalkLetters = asciiPathWalkLetters;
     }
+
+    public void printASCIIMapAlgorithmResult() {
+        if (asciiPathWalkResult != null && asciiPathWalkLetters != null) {
+            System.out.println("LETTER: " + asciiPathWalkLetters);
+            System.out.println("PATH: " + asciiPathWalkResult);
+        }
+    }
 }

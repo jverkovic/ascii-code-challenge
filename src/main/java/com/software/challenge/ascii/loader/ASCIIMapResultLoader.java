@@ -61,7 +61,6 @@ public class ASCIIMapResultLoader {
 
         } catch (IOException ioE) {
             ioE.printStackTrace();
-            //System.out.println("Error- opening result file.");
             return null;
         }
     }

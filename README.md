@@ -4,22 +4,22 @@
 - Find the position of character `@`
 - Follow the path, stop when character `x` is reached
 
-## Code Challenge
+# Code Challenge
 
 Write a piece of code that takes ASCII map as an input and outputs the collected letters and the list of characters of the travelled path.
 
-  - Input: 
+- Input:
     - ASCII map (hard-coded, in a file, copied from a magic scroll - your choice)
-  - Output:
+- Output:
     - Collected letters
     - Path as characters
-    
-    
+
+
 # Solution
 Java Application with Gradle Framework
 
 # Running
-Program accept a list of pair arguments (map input and rsult) with path of 
+Program accept a arguments (map input) with path of
 ```
 ${project.dir}/input/${argument}
 ```
@@ -36,15 +36,9 @@ ${project.dir}/input/${argument}
       +---+
 ```
 
-### inputs/test-map-1-result.txt
+### RUNNING
 ```
-ACB
-@---A---+|C|+---+|+-B-x
-```
-
-### RUNNING 
-```
-java inputs/test-map-1.txt inputs/test-map-1-result.txt
+java ... inputs/test-map-1.txt
 ```
 
 ### OUTPUT
@@ -63,12 +57,12 @@ PATH: @---A---+|C|+---+|+-B-x
 
 ## Example 2: Invalid maps:
 
-## RUNNING 
+### RUNNING
 ```
-java inputs/test-map-1-inv.txt inputs/test-map-1-inv-result.txt
+java ... inputs/test-map-1-inv.txt
 ```
 
-## OUTPUT
+### OUTPUT
 ```
 FILE: inputs/test-map-1-inv.txt
      -A---+
@@ -83,9 +77,9 @@ Error
 
 ## JUNIT TEST
 Basic unit tests are included in solution. Grouped in 3 Logical Process of program execution.
-  - InitLoadingTest
-  - MapValidationTest
-  - AlgorithmTest
+- InitLoadingTest
+- MapValidationTest
+- AlgorithmTest
 
 
 
