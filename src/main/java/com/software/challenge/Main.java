@@ -13,9 +13,8 @@ public class Main {
     public static void main(String[] args) throws FileNotFoundException {
 
         if (args.length >= 2) {
-            int i = 0;
 
-            for (i = 0; i < args.length; i += 2) {
+            for (int i = 0; i < args.length; i += 2) {
 
                 ASCIIMapLoader asciiMap2DCharLoader = new ASCIIMapLoader(args[i]);
                 ASCIIMapResultLoader asciiMapResultLoader = new ASCIIMapResultLoader(args[i + 1]);
