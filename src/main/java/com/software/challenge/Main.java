@@ -35,9 +35,13 @@ public class Main {
 
                     if (asciiMapWalkResult != null && asciiMapCheckResult != null) {
                         error = Boolean.FALSE;
+
                         ASCIIMapWalkTest asciiMapWalkTest = new ASCIIMapWalkTest(asciiMapWalkResult, asciiMapCheckResult);
+
                         System.out.println("LETTER: " + asciiMapWalkResult.getAsciiPathWalkLetters());
                         System.out.println("PATH: " + asciiMapWalkResult.getAsciiPathWalkResult());
+
+                        System.out.println("COMPARED: " + asciiMapWalkTest.checkIsEquals());
                     }
                 }
                 if (error) System.out.println("Error");

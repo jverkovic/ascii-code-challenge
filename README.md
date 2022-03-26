@@ -1,4 +1,4 @@
-# [Software Sauna](https://www.softwaresauna.com/) Code Challenge
+# ASCII MAP Path Walk - Code Challenge
 
 - Path following algorithm in ASCII Map
 - Find the position of character `@`
@@ -39,7 +39,7 @@ ${project.dir}/input/${argument}
 ### inputs/test-map-1-result.txt
 ```
 ACB
-   @---A---+|C|+---+|+-B-x
+@---A---+|C|+---+|+-B-x
 ```
 
 ### RUNNING 
