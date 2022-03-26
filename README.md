@@ -36,12 +36,14 @@ Program accept a list of pair arguments (map input and rsult) with path of ${pro
 ```
 
 ### inputs/test-map-1-result.txt
-```ACB```
-```@---A---+|C|+---+|+-B-x
+```ACB
+   @---A---+|C|+---+|+-B-x
 ```
 
 ### RUNNING 
-java inputs/test-map-1.txt inputs/test-map-1-result.txt
+```java inputs/test-map-1.txt inputs/test-map-1-result.txt
+
+```
 
 ### OUTPUT
 ```
