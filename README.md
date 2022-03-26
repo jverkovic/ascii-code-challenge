@@ -19,9 +19,10 @@ Write a piece of code that takes ASCII map as an input and outputs the collected
 Java Application with Gradle Framework
 
 # Running
-Program accept a list of pair arguments (map input and rsult) with path of ${project.dir}/input/${argument}
-
-
+Program accept a list of pair arguments (map input and rsult) with path of 
+```
+${project.dir}/input/${argument}
+```
 
 ## Example 1: Valid maps
 
@@ -36,13 +37,14 @@ Program accept a list of pair arguments (map input and rsult) with path of ${pro
 ```
 
 ### inputs/test-map-1-result.txt
-```ACB
+```
+ACB
    @---A---+|C|+---+|+-B-x
 ```
 
 ### RUNNING 
-```java inputs/test-map-1.txt inputs/test-map-1-result.txt
-
+```
+java inputs/test-map-1.txt inputs/test-map-1-result.txt
 ```
 
 ### OUTPUT
@@ -62,7 +64,9 @@ PATH: @---A---+|C|+---+|+-B-x
 ## Example 2: Invalid maps:
 
 ## RUNNING 
+```
 java inputs/test-map-1-inv.txt inputs/test-map-1-inv-result.txt
+```
 
 ## OUTPUT
 ```
